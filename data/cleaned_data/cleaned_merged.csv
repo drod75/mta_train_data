@@ -1,180 +1,268 @@
 ,STATION,Station Latitude,Station Longitude,SEGMENT,SECTOR,BOROUGH,AVGWKDRIDER,AVGWKND,ANN_RID
-0,Alabama Av,40.676992,-73.898654,Jamaica,Other Brooklyn,Brooklyn,1205,1081,365995
-1,Allerton Av,40.865462,-73.867352,White Plains Rd,Bronx,Bronx,2836,2806,874229
-2,Aqueduct Racetrack,40.672131,-73.835812,Rockaway,Queens,Queens,557,1088,202474
-3,Aqueduct-North Conduit Av,40.668234,-73.834058,Rockaway,Queens,Queens,558,376,162584
-4,Astor Place,40.730054,-73.99107,Lexington Av (CBD),Valley,Manhattan,11137,16518,3717074
-5,Atlantic Av,40.675345,-73.903097,Canarsie,Other Brooklyn,Brooklyn,1152,1063,351212
-6,Atlantic Av-Barclays Ctr,40.6840125,-73.978238,Downtown Brooklyn Transfer,Brooklyn CBD,Brooklyn,29183,40074,9583506
-7,Bay Ridge Av,40.634967,-74.023377,4 Av,Other Brooklyn,Brooklyn,5690,6220,1784703
-8,Baychester Av,40.878663,-73.838591,Dyre Av,Bronx,Bronx,1875,1171,540493
-9,Bedford Av,40.717304,-73.956872,Canarsie,Other Brooklyn,Brooklyn,23653,44011,8399477
-10,Bedford Park Blvd,40.873244,-73.887138,Concourse,Bronx,Bronx,4139,2068,1166942
-11,Bedford Park Blvd-Lehman College,40.873412,-73.890064,Jerome Av,Bronx,Bronx,3634,4818,1182701
-12,Bedford-Nostrand Avs,40.689627,-73.953522,Crosstown,Other Brooklyn,Brooklyn,6027,8380,1985142
-13,Bergen St,40.686145,-73.990862,Eastern Pkwy,Other Brooklyn,Brooklyn,3009,4194,990992
-14,Bergen St,40.686145,-73.990862,Culver,Other Brooklyn,Brooklyn,8349,10775,2701492
-15,Beverly Rd,40.645098,-73.948959,Nostrand Av,Other Brooklyn,Brooklyn,3044,3255,951520
-16,Bowery,40.72028,-73.993915,Nassau St,Valley,Manhattan,2441,4888,887619
-17,Bowling Green,40.704817,-74.014065,Lexington Av (CBD),Downtown,Manhattan,14906,14337,4575586
-18,Briarwood-Van Wyck Blvd,40.709179,-73.820574,Queens Blvd,Queens,Queens,3443,3153,1046884
-19,Brighton Beach,40.577621,-73.961376,Brighton,Other Brooklyn,Brooklyn,8299,9482,2635382
-20,Broad Channel,40.608382,-73.815925,Rockaway,Queens,Queens,179,123,52378
-21,Broad St,40.706476,-74.011056,Nassau St,Downtown,Manhattan,3982,3705,1214353
-22,Broadway,40.706092,-73.950308,Crosstown,Other Brooklyn,Brooklyn,3420,4446,1112371
-23,Broadway,40.706092,-73.950308,Astoria,Queens,Queens,8653,10393,2763230
-24,Broadway-Lafayette St,40.725297,-73.996204,Manhattan CBD Transfer,Valley,Manhattan,27303,43350,9268403
-25,Bronx Park East,40.848828,-73.868457,White Plains Rd,Bronx,Bronx,1516,1299,456352
-26,Brook Av,40.807566,-73.91924,Pelham,Bronx,Bronx,3540,3739,1104521
-27,Brooklyn Bridge-City Hall,40.712868,-74.004387,Manhattan CBD Transfer,Downtown,Manhattan,19361,17568,5881022
-28,Buhre Av,40.84681,-73.832569,Pelham,Bronx,Bronx,2616,1726,758972
-29,Burke Av,40.871356,-73.867164,White Plains Rd,Bronx,Bronx,1755,1587,532937
-30,Burnside Av,40.853453,-73.907684,Jerome Av,Bronx,Bronx,5773,7807,1891402
-31,Canal St,40.720824,-74.005229,Broadway/7 Av (CBD),Valley,Manhattan,3595,4352,1148885
-32,Canal St,40.720824,-74.005229,8 Av,Valley,Manhattan,12596,13840,3950546
-33,Canal St,40.720824,-74.005229,Manhattan CBD Transfer,Valley,Manhattan,30763,49543,10521747
-34,Carroll St,40.680303,-73.995048,Culver,Other Brooklyn,Brooklyn,8432,8971,2625017
-35,Castle Hill Av,40.834255,-73.851222,Pelham,Bronx,Bronx,3619,2367,1051526
-36,Central Av,40.697857,-73.927397,Myrtle Av,Other Brooklyn,Brooklyn,2711,2496,821947
-37,Chambers St,40.714111,-74.008585,Broadway/7 Av (CBD),Downtown,Manhattan,12798,9934,3782605
-38,Chambers St,40.714111,-74.008585,Manhattan CBD Transfer,Downtown,Manhattan,40703,35944,12298422
-39,Chauncey St,40.682893,-73.910456,Jamaica,Other Brooklyn,Brooklyn,1895,2612,623164
-40,Church Av,40.650527,-73.962982,Nostrand Av,Other Brooklyn,Brooklyn,6201,6828,1947722
-41,Church Av,40.650527,-73.962982,Brighton,Other Brooklyn,Brooklyn,10537,9429,3194658
-42,Church Av,40.650527,-73.962982,Culver,Other Brooklyn,Brooklyn,6312,8392,2060505
-43,City Hall,40.713282,-74.006978,Broadway-60 St,Downtown,Manhattan,3842,2987,1138401
-44,Clark St,40.697466,-73.993086,Eastern Pkwy,Other Brooklyn,Brooklyn,4481,7648,1554195
-45,Classon Av,40.688873,-73.96007,Crosstown,Other Brooklyn,Brooklyn,4141,5354,1342389
-46,Cleveland St,40.679947,-73.884639,Jamaica,Other Brooklyn,Brooklyn,1422,1432,440455
-47,Clinton-Washington Avs,40.688089,-73.966839,Fulton St,Other Brooklyn,Brooklyn,4998,5903,1587595
-48,Clinton-Washington Avs,40.688089,-73.966839,Crosstown,Other Brooklyn,Brooklyn,3968,4746,1263928
-49,Cortelyou Rd,40.640927,-73.963891,Brighton,Other Brooklyn,Brooklyn,4098,4640,1296344
-50,Court St,40.6941,-73.991777,Downtown Brooklyn Transfer,Brooklyn CBD,Brooklyn,20372,16601,6066699
-51,Crescent St,40.683194,-73.873785,Jamaica,Other Brooklyn,Brooklyn,2360,2872,756318
-52,Cypress Av,40.805368,-73.914042,Pelham,Bronx,Bronx,1643,1533,501060
-53,Cypress Hills,40.689941,-73.87255,Jamaica,Other Brooklyn,Brooklyn,1016,497,286484
-54,DeKalb Av,40.703811,-73.918425,Canarsie,Other Brooklyn,Brooklyn,8574,10894,2772609
-55,DeKalb Av,40.703811,-73.918425,Downtown Brooklyn Transfer,Brooklyn CBD,Brooklyn,13759,14315,4272247
-56,Delancey St,40.718611,-73.988114,Manhattan CBD Transfer,Valley,Manhattan,20608,34260,7083681
-57,Ditmas Av,40.636119,-73.978172,Culver,Other Brooklyn,Brooklyn,3007,1481,848061
-58,Dyckman St,40.860531,-73.925536,Upper Broadway,Upper Manhattan,Manhattan,4704,5782,1512897
-59,Dyckman St,40.860531,-73.925536,Washington Heights,Upper Manhattan,Manhattan,4145,4685,1306098
-60,East Broadway,40.713715,-73.990173,6 Av,Valley,Manhattan,11083,16775,3729749
-61,Eastchester-Dyre Av,40.8883,-73.830834,Dyre Av,Bronx,Bronx,2576,1343,727475
-62,Elder Av,40.828584,-73.879159,Pelham,Bronx,Bronx,3846,4319,1214084
-63,Elmhurst Av,40.742454,-73.882017,Queens Blvd,Queens,Queens,8563,9116,2676734
-64,Euclid Av,40.675377,-73.872106,Fulton St,Other Brooklyn,Brooklyn,6777,7827,2146235
-65,Far Rockaway-Mott Av,40.603995,-73.755405,Rockaway,Queens,Queens,2817,2473,852781
-66,Flatbush Av-Brooklyn College,40.632836,-73.947642,Nostrand Av,Other Brooklyn,Brooklyn,11967,10287,3601151
-67,Flushing Av,40.70026,-73.941126,Crosstown,Other Brooklyn,Brooklyn,2416,2080,729349
-68,Flushing Av,40.70026,-73.941126,Jamaica,Other Brooklyn,Brooklyn,5217,5327,1614503
-69,Flushing-Main St,40.7596,-73.83003,Flushing (Queens),Queens,Queens,43226,53183,13876213
-70,Fordham Rd,40.861296,-73.897749,Jerome Av,Bronx,Bronx,6716,10372,2269772
-71,Fordham Rd,40.861296,-73.897749,Concourse,Bronx,Bronx,6533,3245,1842281
-72,Forest Av,40.704423,-73.903077,Myrtle Av,Queens,Queens,3108,2505,923548
-73,Franklin Av,40.670682,-73.958131,Other Brooklyn Transfer,Other Brooklyn,Brooklyn,10092,13745,3312190
-74,Franklin Av,40.670682,-73.958131,Other Brooklyn Transfer,Other Brooklyn,Brooklyn,3667,5102,1210340
-75,Franklin St,40.719318,-74.006886,Broadway/7 Av (CBD),Valley,Manhattan,4337,4222,1329726
-76,Freeman St,40.829993,-73.891865,White Plains Rd,Bronx,Bronx,2690,2528,822237
-77,Fresh Pond Rd,40.706186,-73.895877,Myrtle Av,Queens,Queens,4047,3107,1195169
-78,Fulton St,40.710368,-74.007582,Manhattan CBD Transfer,Downtown,Manhattan,57533,59967,17887203
-79,Fulton St,40.710368,-74.007582,Crosstown,Other Brooklyn,Brooklyn,4656,6494,1534593
-80,Gates Av,40.68963,-73.92227,Jamaica,Other Brooklyn,Brooklyn,4512,5709,1458035
-81,Graham Av,40.714565,-73.944053,Canarsie,Other Brooklyn,Brooklyn,6732,8370,2164641
-82,Grand Army Plaza,40.675235,-73.971046,Eastern Pkwy,Other Brooklyn,Brooklyn,5055,6749,1653318
-83,Grand Av-Newtown,40.737015,-73.877223,Queens Blvd,Queens,Queens,12662,12357,3893242
-84,Grand St,40.711926,-73.94067,6 Av,Valley,Manhattan,17686,24196,5821650
-85,Grand St,40.711926,-73.94067,Canarsie,Other Brooklyn,Brooklyn,4744,5408,1499646
-86,Grant Av,40.677044,-73.86505,Fulton St,Other Brooklyn,Brooklyn,3839,3518,1169287
-87,Greenpoint Av,40.731352,-73.954449,Crosstown,Other Brooklyn,Brooklyn,7672,9284,2457616
-88,Gun Hill Rd,40.873688,-73.85632000000001,White Plains Rd,Bronx,Bronx,3897,4115,1214663
-89,Gun Hill Rd,40.873688,-73.85632000000001,Dyre Av,Bronx,Bronx,3189,2094,925025
-90,Halsey St,40.695602,-73.904084,Jamaica,Other Brooklyn,Brooklyn,3847,5056,1253085
-91,Halsey St,40.695602,-73.904084,Canarsie,Other Brooklyn,Brooklyn,5434,6048,1713746
-92,Hewes St,40.70687,-73.953431,Jamaica,Other Brooklyn,Brooklyn,1849,2638,612920
-93,High St,40.699337,-73.990531,Fulton St,Other Brooklyn,Brooklyn,6859,8954,2247144
-94,Houston St,40.728251,-74.005367,Broadway/7 Av (CBD),Valley,Manhattan,8908,9033,2749660
-95,Hoyt St,40.690545,-73.985065,Eastern Pkwy,Brooklyn CBD,Brooklyn,5087,6962,1666303
-96,Hunts Point Av,40.820948,-73.890549,Pelham,Bronx,Bronx,6976,6753,2140557
-97,Intervale Av,40.822181,-73.896736,White Plains Rd,Bronx,Bronx,1915,1710,580512
-98,Jackson Av,40.81649,-73.907807,White Plains Rd,Bronx,Bronx,3066,2545,919324
-99,Jamaica-Van Wyck,40.702566,-73.816859,Queens Blvd,Queens,Queens,3260,3375,1010728
-100,Jefferson St,40.706607,-73.922913,Canarsie,Other Brooklyn,Brooklyn,5875,10715,2075924
-101,Junction Blvd,40.749145,-73.869527,Flushing (Queens),Queens,Queens,20384,28280,6720760
-102,Junius St,40.663515,-73.902447,New Lots,Other Brooklyn,Brooklyn,1567,1632,487780
-103,Kew Gardens-Union Turnpike,40.714441,-73.831008,Queens Blvd,Queens,Queens,16603,14752,5016215
-104,Kingsbridge Rd,40.866978,-73.893509,Jerome Av,Bronx,Bronx,6045,7759,1958074
-105,Kingsbridge Rd,40.866978,-73.893509,Concourse,Bronx,Bronx,4060,1939,1140981
-106,Kingston Av,40.669399,-73.942161,New Lots,Other Brooklyn,Brooklyn,3233,3513,1017521
-107,Knickerbocker Av,40.698664,-73.919711,Myrtle Av,Other Brooklyn,Brooklyn,2814,2754,862039
-108,Lafayette Av,40.686113,-73.973946,Fulton St,Other Brooklyn,Brooklyn,3711,5720,1252720
-109,Lexington Av,40.764627,-73.96611,Manhattan CBD Transfer,Midtown,Manhattan,37615,39358,11691818
-110,Liberty Av,40.674542,-73.896548,Fulton St,Other Brooklyn,Brooklyn,1661,1379,497050
-111,Livonia Av,40.664038,-73.900571,Canarsie,Other Brooklyn,Brooklyn,1919,1855,590252
-112,Longwood Av,40.816104,-73.896435,Pelham,Bronx,Bronx,2258,2067,686670
-113,Lorimer St,40.703869,-73.947408,Jamaica,Other Brooklyn,Brooklyn,2792,3316,890789
-114,Lorimer St,40.703869,-73.947408,Other Brooklyn Transfer,Other Brooklyn,Brooklyn,10951,20646,3903034
-115,Marcy Av,40.708359,-73.957757,Jamaica,Other Brooklyn,Brooklyn,8867,11221,2864396
-116,Middletown Rd,40.843863,-73.836322,Pelham,Bronx,Bronx,1416,780,401976
-117,Montrose Av,40.707739,-73.93985,Canarsie,Other Brooklyn,Brooklyn,4979,7687,1683408
-118,Morgan Av,40.706152,-73.933147,Canarsie,Other Brooklyn,Brooklyn,5220,8159,1769142
-119,Morris Park,40.854364,-73.860495,Dyre Av,Bronx,Bronx,1820,1097,521846
-120,Mt Eden Av,40.844434,-73.914685,Jerome Av,Bronx,Bronx,3106,3700,990912
-121,Myrtle Av,40.699814,-73.911586,Jamaica,Other Brooklyn,Brooklyn,8209,10455,2654490
-122,Myrtle-Willoughby Avs,40.694568,-73.949046,Crosstown,Other Brooklyn,Brooklyn,3977,4658,1265040
-123,Nassau Av,40.724635,-73.951277,Crosstown,Other Brooklyn,Brooklyn,6888,10524,2320186
-124,Neck Rd,40.595246,-73.955161,Brighton,Other Brooklyn,Brooklyn,3098,3069,956059
-125,Nevins St,40.688246,-73.980492,Eastern Pkwy,Brooklyn CBD,Brooklyn,6665,8193,2136592
-126,New Lots Av,40.666235,-73.884079,New Lots,Other Brooklyn,Brooklyn,3495,3251,1066391
-127,New Lots Av,40.666235,-73.884079,Canarsie,Other Brooklyn,Brooklyn,2307,2020,697822
-128,New Utrecht Av,40.624842,-73.996353,Other Brooklyn Transfer,Other Brooklyn,Brooklyn,3765,4472,1201167
-129,Newkirk Av,40.639967,-73.948411,Nostrand Av,Other Brooklyn,Brooklyn,4638,4542,1426266
-130,Northern Blvd,40.752885,-73.906006,Queens Blvd,Queens,Queens,4631,4097,1400392
-131,Norwood Av,40.68141,-73.880039,Jamaica,Other Brooklyn,Brooklyn,1508,1373,458742
-132,Nostrand Av,40.680438,-73.950426,New Lots,Other Brooklyn,Brooklyn,2512,3090,809205
-133,Nostrand Av,40.680438,-73.950426,Fulton St,Other Brooklyn,Brooklyn,11753,14381,3768205
-134,Parkside Av,40.655292,-73.961495,Brighton,Other Brooklyn,Brooklyn,4102,5558,1348897
-135,Parsons Blvd,40.707564,-73.803326,Queens Blvd,Queens,Queens,5008,5750,1584984
-136,Pelham Bay Park,40.852462,-73.828121,Pelham,Bronx,Bronx,3863,3642,1180813
-137,Pennsylvania Av,40.664635,-73.894895,New Lots,Other Brooklyn,Brooklyn,2818,2788,868432
-138,President St,40.667883,-73.950683,Nostrand Av,Other Brooklyn,Brooklyn,2450,2173,742431
-139,Prince St,40.724329,-73.997702,Broadway-60 St,Valley,Manhattan,8363,18482,3128710
-140,Prospect Av,40.819585,-73.90177,White Plains Rd,Bronx,Bronx,4136,3607,1248614
-141,Prospect Av,40.819585,-73.90177,4 Av,Other Brooklyn,Brooklyn,4237,4133,1299538
-142,Prospect Park,40.661614,-73.962246,Other Brooklyn Transfer,Other Brooklyn,Brooklyn,6489,9181,2150487
-143,Queens Plaza,40.748973,-73.937243,Queens Blvd,Queens,Queens,11616,12829,3645653
-144,Queensboro Plaza,40.750582,-73.940202,Queens Transfer,Queens,Queens,10698,15649,3573523
-145,Ralph Av,40.678822,-73.920786,Fulton St,Other Brooklyn,Brooklyn,3356,4052,1073687
-146,Rector St,40.70722,-74.013342,Broadway/7 Av (CBD),Downtown,Manhattan,4898,6620,1606245
-147,Rector St,40.70722,-74.013342,Broadway-60 St,Downtown,Manhattan,3719,3354,1127341
-148,Rockaway Av,40.67834,-73.911946,New Lots,Other Brooklyn,Brooklyn,2751,2547,838719
-149,Rockaway Av,40.67834,-73.911946,Fulton St,Other Brooklyn,Brooklyn,3433,3802,1079621
-150,Rockaway Blvd,40.680429,-73.843853,Fulton St,Queens,Queens,4983,4629,1519523
-151,Roosevelt Island,40.759145,-73.95326,63 St,Upper Manhattan,Manhattan,5078,7273,1686544
-152,Saratoga Av,40.661453,-73.916327,New Lots,Other Brooklyn,Brooklyn,3122,2696,941203
-153,Seneca Av,40.702762,-73.90774,Myrtle Av,Queens,Queens,2023,1933,617361
-154,Sheepshead Bay,40.586896,-73.954155,Brighton,Other Brooklyn,Brooklyn,9420,7794,2821135
-155,Shepherd Av,40.67413,-73.88075,Fulton St,Other Brooklyn,Brooklyn,1831,1731,559941
-156,Simpson St,40.824073,-73.893064,White Plains Rd,Bronx,Bronx,4374,4109,1336897
-157,South Ferry,40.702068,-74.013664,Manhattan CBD Transfer,Downtown,Manhattan,18765,22231,5995305
-158,Spring St,40.722301,-73.997141,Lexington Av (CBD),Valley,Manhattan,8253,16137,2969643
-159,Spring St,40.722301,-73.997141,8 Av,Valley,Manhattan,9575,9434,2941927
-160,Sutphin Blvd,40.70546,-73.810708,Queens Blvd,Queens,Queens,2834,2977,882617
-161,Sutter Av,40.664717,-73.92261,Canarsie,Other Brooklyn,Brooklyn,1585,1377,479262
-162,Tremont Av,40.85041,-73.905227,Concourse,Bronx,Bronx,4238,2028,1192367
-163,Union St,40.677316,-73.98311,4 Av,Other Brooklyn,Brooklyn,5142,6338,1646253
-164,Utica Av,40.668897,-73.932942,Fulton St,Other Brooklyn,Brooklyn,9083,11023,2907120
-165,Van Siclen Av,40.67271,-73.890358,New Lots,Other Brooklyn,Brooklyn,1616,1485,491980
-166,Van Siclen Av,40.67271,-73.890358,Fulton St,Other Brooklyn,Brooklyn,1701,1711,525801
-167,Van Siclen Av,40.67271,-73.890358,Jamaica,Other Brooklyn,Brooklyn,1677,1623,515895
-168,Vernon Blvd-Jackson Av,40.742626,-73.953581,Flushing (Queens),Queens,Queens,11662,12179,3631659
-169,Wall St,40.707557,-74.011862,Broadway/7 Av (CBD),Downtown,Manhattan,12395,10788,3729954
-170,Wall St,40.707557,-74.011862,Lexington Av (CBD),Downtown,Manhattan,11163,10252,3393094
-171,Whitlock Av,40.826525,-73.886283,Pelham,Bronx,Bronx,1250,1248,385838
-172,Wilson Av,40.688764,-73.904046,Canarsie,Other Brooklyn,Brooklyn,3010,3416,952643
-173,Winthrop St,40.656652,-73.9502,Nostrand Av,Other Brooklyn,Brooklyn,5379,4816,1628419
-174,Woodhaven Blvd,40.733106,-73.869229,Queens Blvd,Queens,Queens,13596,14303,4237180
-175,Woodhaven Blvd,40.733106,-73.869229,Jamaica,Queens,Queens,1935,1136,557522
-176,Woodlawn,40.886037,-73.878751,Jerome Av,Bronx,Bronx,4228,4136,1299027
-177,York St,40.699743,-73.986885,Culver,Other Brooklyn,Brooklyn,9633,16452,3345474
-178,Zerega Av,40.836488,-73.847036,Pelham,Bronx,Bronx,1760,1044,504725
+0,Far Rockaway-Mott Av,40.603995,-73.755405,Rockaway,Queens,Queens,2817,2473,852781
+1,Parsons Blvd,40.707564,-73.803326,Queens Blvd,Queens,Queens,5008,5750,1584984
+2,Sutphin Blvd,40.70546,-73.810708,Queens Blvd,Queens,Queens,2834,2977,882617
+3,Broad Channel,40.608382,-73.815925,Rockaway,Queens,Queens,179,123,52378
+4,Jamaica-Van Wyck,40.702566,-73.816859,Queens Blvd,Queens,Queens,3260,3375,1010728
+5,Briarwood-Van Wyck Blvd,40.709179,-73.820574,Queens Blvd,Queens,Queens,3443,3153,1046884
+6,Pelham Bay Park,40.852462,-73.828121,Pelham,Bronx,Bronx,3863,3642,1180813
+7,Flushing-Main St,40.7596,-73.83003,Flushing (Queens),Queens,Queens,43226,53183,13876213
+8,Eastchester-Dyre Av,40.8883,-73.830834,Dyre Av,Bronx,Bronx,2576,1343,727475
+9,Kew Gardens-Union Turnpike,40.714441,-73.831008,Queens Blvd,Queens,Queens,16603,14752,5016215
+10,Buhre Av,40.84681,-73.832569,Pelham,Bronx,Bronx,2616,1726,758972
+11,Aqueduct-North Conduit Av,40.668234,-73.834058,Rockaway,Queens,Queens,558,376,162584
+12,Aqueduct Racetrack,40.672131,-73.835812,Rockaway,Queens,Queens,557,1088,202474
+13,Middletown Rd,40.843863,-73.836322,Pelham,Bronx,Bronx,1416,780,401976
+14,Baychester Av,40.878663,-73.838591,Dyre Av,Bronx,Bronx,1875,1171,540493
+15,Rockaway Blvd,40.680429,-73.843853,Fulton St,Queens,Queens,4983,4629,1519523
+16,Gun Hill Rd,40.869526,-73.846384,White Plains Rd,Bronx,Bronx,3897,4115,1214663
+17,Gun Hill Rd,40.869526,-73.846384,Dyre Av,Bronx,Bronx,3189,2094,925025
+18,Zerega Av,40.836488,-73.847036,Pelham,Bronx,Bronx,1760,1044,504725
+19,Castle Hill Av,40.834255,-73.851222,Pelham,Bronx,Bronx,3619,2367,1051526
+20,Woodhaven Blvd,40.693879,-73.851576,Queens Blvd,Queens,Queens,13596,14303,4237180
+21,Woodhaven Blvd,40.693879,-73.851576,Jamaica,Queens,Queens,1935,1136,557522
+22,Morris Park,40.854364,-73.860495,Dyre Av,Bronx,Bronx,1820,1097,521846
+23,Grant Av,40.677044,-73.86505,Fulton St,Other Brooklyn,Brooklyn,3839,3518,1169287
+24,Gun Hill Rd,40.87785,-73.866256,White Plains Rd,Bronx,Bronx,3897,4115,1214663
+25,Gun Hill Rd,40.87785,-73.866256,Dyre Av,Bronx,Bronx,3189,2094,925025
+26,Burke Av,40.871356,-73.867164,White Plains Rd,Bronx,Bronx,1755,1587,532937
+27,Allerton Av,40.865462,-73.867352,White Plains Rd,Bronx,Bronx,2836,2806,874229
+28,Bronx Park East,40.848828,-73.868457,White Plains Rd,Bronx,Bronx,1516,1299,456352
+29,Woodhaven Blvd,40.733106,-73.869229,Queens Blvd,Queens,Queens,13596,14303,4237180
+30,Woodhaven Blvd,40.733106,-73.869229,Jamaica,Queens,Queens,1935,1136,557522
+31,Junction Blvd,40.749145,-73.869527,Flushing (Queens),Queens,Queens,20384,28280,6720760
+32,Euclid Av,40.675377,-73.872106,Fulton St,Other Brooklyn,Brooklyn,6777,7827,2146235
+33,Cypress Hills,40.689941,-73.87255,Jamaica,Other Brooklyn,Brooklyn,1016,497,286484
+34,Crescent St,40.683194,-73.873785,Jamaica,Other Brooklyn,Brooklyn,2360,2872,756318
+35,Grand Av-Newtown,40.737015,-73.877223,Queens Blvd,Queens,Queens,12662,12357,3893242
+36,Woodlawn,40.886037,-73.878751,Jerome Av,Bronx,Bronx,4228,4136,1299027
+37,Elder Av,40.828584,-73.879159,Pelham,Bronx,Bronx,3846,4319,1214084
+38,Norwood Av,40.68141,-73.880039,Jamaica,Other Brooklyn,Brooklyn,1508,1373,458742
+39,Shepherd Av,40.67413,-73.88075,Fulton St,Other Brooklyn,Brooklyn,1831,1731,559941
+40,Elmhurst Av,40.742454,-73.882017,Queens Blvd,Queens,Queens,8563,9116,2676734
+41,New Lots Av,40.666235,-73.884079,New Lots,Other Brooklyn,Brooklyn,3495,3251,1066391
+42,New Lots Av,40.666235,-73.884079,Canarsie,Other Brooklyn,Brooklyn,2307,2020,697822
+43,Cleveland St,40.679947,-73.884639,Jamaica,Other Brooklyn,Brooklyn,1422,1432,440455
+44,Whitlock Av,40.826525,-73.886283,Pelham,Bronx,Bronx,1250,1248,385838
+45,Bedford Park Blvd,40.873244,-73.887138,Concourse,Bronx,Bronx,4139,2068,1166942
+46,Van Siclen Av,40.665449,-73.889395,New Lots,Other Brooklyn,Brooklyn,1616,1485,491980
+47,Van Siclen Av,40.665449,-73.889395,Fulton St,Other Brooklyn,Brooklyn,1701,1711,525801
+48,Van Siclen Av,40.665449,-73.889395,Jamaica,Other Brooklyn,Brooklyn,1677,1623,515895
+49,Bedford Park Blvd-Lehman College,40.873412,-73.890064,Jerome Av,Bronx,Bronx,3634,4818,1182701
+50,Van Siclen Av,40.67271,-73.890358,New Lots,Other Brooklyn,Brooklyn,1616,1485,491980
+51,Van Siclen Av,40.67271,-73.890358,Fulton St,Other Brooklyn,Brooklyn,1701,1711,525801
+52,Van Siclen Av,40.67271,-73.890358,Jamaica,Other Brooklyn,Brooklyn,1677,1623,515895
+53,Hunts Point Av,40.820948,-73.890549,Pelham,Bronx,Bronx,6976,6753,2140557
+54,Van Siclen Av,40.678024,-73.891688,New Lots,Other Brooklyn,Brooklyn,1616,1485,491980
+55,Van Siclen Av,40.678024,-73.891688,Fulton St,Other Brooklyn,Brooklyn,1701,1711,525801
+56,Van Siclen Av,40.678024,-73.891688,Jamaica,Other Brooklyn,Brooklyn,1677,1623,515895
+57,Freeman St,40.829993,-73.891865,White Plains Rd,Bronx,Bronx,2690,2528,822237
+58,Simpson St,40.824073,-73.893064,White Plains Rd,Bronx,Bronx,4374,4109,1336897
+59,Kingsbridge Rd,40.866978,-73.893509,Jerome Av,Bronx,Bronx,6045,7759,1958074
+60,Kingsbridge Rd,40.866978,-73.893509,Concourse,Bronx,Bronx,4060,1939,1140981
+61,Pennsylvania Av,40.664635,-73.894895,New Lots,Other Brooklyn,Brooklyn,2818,2788,868432
+62,Fresh Pond Rd,40.706186,-73.895877,Myrtle Av,Queens,Queens,4047,3107,1195169
+63,Longwood Av,40.816104,-73.896435,Pelham,Bronx,Bronx,2258,2067,686670
+64,Liberty Av,40.674542,-73.896548,Fulton St,Other Brooklyn,Brooklyn,1661,1379,497050
+65,Intervale Av,40.822181,-73.896736,White Plains Rd,Bronx,Bronx,1915,1710,580512
+66,Kingsbridge Rd,40.86776,-73.897174,Jerome Av,Bronx,Bronx,6045,7759,1958074
+67,Kingsbridge Rd,40.86776,-73.897174,Concourse,Bronx,Bronx,4060,1939,1140981
+68,Fordham Rd,40.861296,-73.897749,Jerome Av,Bronx,Bronx,6716,10372,2269772
+69,Fordham Rd,40.861296,-73.897749,Concourse,Bronx,Bronx,6533,3245,1842281
+70,Alabama Av,40.676992,-73.898654,Jamaica,Other Brooklyn,Brooklyn,1205,1081,365995
+71,New Lots Av,40.658733,-73.899232,New Lots,Other Brooklyn,Brooklyn,3495,3251,1066391
+72,New Lots Av,40.658733,-73.899232,Canarsie,Other Brooklyn,Brooklyn,2307,2020,697822
+73,Livonia Av,40.664038,-73.900571,Canarsie,Other Brooklyn,Brooklyn,1919,1855,590252
+74,Fordham Rd,40.862803,-73.901034,Jerome Av,Bronx,Bronx,6716,10372,2269772
+75,Fordham Rd,40.862803,-73.901034,Concourse,Bronx,Bronx,6533,3245,1842281
+76,Prospect Av,40.819585,-73.90177,White Plains Rd,Bronx,Bronx,4136,3607,1248614
+77,Prospect Av,40.819585,-73.90177,4 Av,Other Brooklyn,Brooklyn,4237,4133,1299538
+78,Sutter Av,40.669367,-73.901975,Canarsie,Other Brooklyn,Brooklyn,1585,1377,479262
+79,Junius St,40.663515,-73.902447,New Lots,Other Brooklyn,Brooklyn,1567,1632,487780
+80,Forest Av,40.704423,-73.903077,Myrtle Av,Queens,Queens,3108,2505,923548
+81,Atlantic Av,40.675345,-73.903097,Canarsie,Other Brooklyn,Brooklyn,1152,1063,351212
+82,Wilson Av,40.688764,-73.904046,Canarsie,Other Brooklyn,Brooklyn,3010,3416,952643
+83,Halsey St,40.695602,-73.904084,Jamaica,Other Brooklyn,Brooklyn,3847,5056,1253085
+84,Halsey St,40.695602,-73.904084,Canarsie,Other Brooklyn,Brooklyn,5434,6048,1713746
+85,Tremont Av,40.85041,-73.905227,Concourse,Bronx,Bronx,4238,2028,1192367
+86,Northern Blvd,40.752885,-73.906006,Queens Blvd,Queens,Queens,4631,4097,1400392
+87,Burnside Av,40.853453,-73.907684,Jerome Av,Bronx,Bronx,5773,7807,1891402
+88,Seneca Av,40.702762,-73.90774,Myrtle Av,Queens,Queens,2023,1933,617361
+89,Jackson Av,40.81649,-73.907807,White Plains Rd,Bronx,Bronx,3066,2545,919324
+90,Rockaway Av,40.662549,-73.908946,New Lots,Other Brooklyn,Brooklyn,2751,2547,838719
+91,Rockaway Av,40.662549,-73.908946,Fulton St,Other Brooklyn,Brooklyn,3433,3802,1079621
+92,Chauncey St,40.682893,-73.910456,Jamaica,Other Brooklyn,Brooklyn,1895,2612,623164
+93,Myrtle Av,40.699814,-73.911586,Jamaica,Other Brooklyn,Brooklyn,8209,10455,2654490
+94,Rockaway Av,40.67834,-73.911946,New Lots,Other Brooklyn,Brooklyn,2751,2547,838719
+95,Rockaway Av,40.67834,-73.911946,Fulton St,Other Brooklyn,Brooklyn,3433,3802,1079621
+96,Cypress Av,40.805368,-73.914042,Pelham,Bronx,Bronx,1643,1533,501060
+97,Mt Eden Av,40.844434,-73.914685,Jerome Av,Bronx,Bronx,3106,3700,990912
+98,Saratoga Av,40.661453,-73.916327,New Lots,Other Brooklyn,Brooklyn,3122,2696,941203
+99,Halsey St,40.68637,-73.916559,Jamaica,Other Brooklyn,Brooklyn,3847,5056,1253085
+100,Halsey St,40.68637,-73.916559,Canarsie,Other Brooklyn,Brooklyn,5434,6048,1713746
+101,DeKalb Av,40.703811,-73.918425,Canarsie,Other Brooklyn,Brooklyn,8574,10894,2772609
+102,DeKalb Av,40.703811,-73.918425,Downtown Brooklyn Transfer,Brooklyn CBD,Brooklyn,13759,14315,4272247
+103,Brook Av,40.807566,-73.91924,Pelham,Bronx,Bronx,3540,3739,1104521
+104,Knickerbocker Av,40.698664,-73.919711,Myrtle Av,Other Brooklyn,Brooklyn,2814,2754,862039
+105,Ralph Av,40.678822,-73.920786,Fulton St,Other Brooklyn,Brooklyn,3356,4052,1073687
+106,Gates Av,40.68963,-73.92227,Jamaica,Other Brooklyn,Brooklyn,4512,5709,1458035
+107,Sutter Av,40.664717,-73.92261,Canarsie,Other Brooklyn,Brooklyn,1585,1377,479262
+108,Jefferson St,40.706607,-73.922913,Canarsie,Other Brooklyn,Brooklyn,5875,10715,2075924
+109,Broadway,40.76182,-73.925508,Crosstown,Other Brooklyn,Brooklyn,3420,4446,1112371
+110,Broadway,40.76182,-73.925508,Astoria,Queens,Queens,8653,10393,2763230
+111,Dyckman St,40.860531,-73.925536,Upper Broadway,Upper Manhattan,Manhattan,4704,5782,1512897
+112,Dyckman St,40.860531,-73.925536,Washington Heights,Upper Manhattan,Manhattan,4145,4685,1306098
+113,Central Av,40.697857,-73.927397,Myrtle Av,Other Brooklyn,Brooklyn,2711,2496,821947
+114,Utica Av,40.679364,-73.930729,Fulton St,Other Brooklyn,Brooklyn,9083,11023,2907120
+115,Utica Av,40.668897,-73.932942,Fulton St,Other Brooklyn,Brooklyn,9083,11023,2907120
+116,Morgan Av,40.706152,-73.933147,Canarsie,Other Brooklyn,Brooklyn,5220,8159,1769142
+117,Myrtle Av,40.697207,-73.935657,Jamaica,Other Brooklyn,Brooklyn,8209,10455,2654490
+118,Queens Plaza,40.748973,-73.937243,Queens Blvd,Queens,Queens,11616,12829,3645653
+119,Montrose Av,40.707739,-73.93985,Canarsie,Other Brooklyn,Brooklyn,4979,7687,1683408
+120,Queensboro Plaza,40.750582,-73.940202,Queens Transfer,Queens,Queens,10698,15649,3573523
+121,Grand St,40.711926,-73.94067,6 Av,Valley,Manhattan,17686,24196,5821650
+122,Grand St,40.711926,-73.94067,Canarsie,Other Brooklyn,Brooklyn,4744,5408,1499646
+123,Flushing Av,40.70026,-73.941126,Crosstown,Other Brooklyn,Brooklyn,2416,2080,729349
+124,Flushing Av,40.70026,-73.941126,Jamaica,Other Brooklyn,Brooklyn,5217,5327,1614503
+125,Kingston Av,40.669399,-73.942161,New Lots,Other Brooklyn,Brooklyn,3233,3513,1017521
+126,Graham Av,40.714565,-73.944053,Canarsie,Other Brooklyn,Brooklyn,6732,8370,2164641
+127,Lorimer St,40.703869,-73.947408,Jamaica,Other Brooklyn,Brooklyn,2792,3316,890789
+128,Lorimer St,40.703869,-73.947408,Other Brooklyn Transfer,Other Brooklyn,Brooklyn,10951,20646,3903034
+129,Flatbush Av-Brooklyn College,40.632836,-73.947642,Nostrand Av,Other Brooklyn,Brooklyn,11967,10287,3601151
+130,Newkirk Av,40.639967,-73.948411,Nostrand Av,Other Brooklyn,Brooklyn,4638,4542,1426266
+131,Beverly Rd,40.645098,-73.948959,Nostrand Av,Other Brooklyn,Brooklyn,3044,3255,951520
+132,Myrtle-Willoughby Avs,40.694568,-73.949046,Crosstown,Other Brooklyn,Brooklyn,3977,4658,1265040
+133,Church Av,40.650843,-73.949575,Nostrand Av,Other Brooklyn,Brooklyn,6201,6828,1947722
+134,Church Av,40.650843,-73.949575,Brighton,Other Brooklyn,Brooklyn,10537,9429,3194658
+135,Church Av,40.650843,-73.949575,Culver,Other Brooklyn,Brooklyn,6312,8392,2060505
+136,Winthrop St,40.656652,-73.9502,Nostrand Av,Other Brooklyn,Brooklyn,5379,4816,1628419
+137,Flushing Av,40.700377,-73.950234,Crosstown,Other Brooklyn,Brooklyn,2416,2080,729349
+138,Flushing Av,40.700377,-73.950234,Jamaica,Other Brooklyn,Brooklyn,5217,5327,1614503
+139,Lorimer St,40.714063,-73.950275,Jamaica,Other Brooklyn,Brooklyn,2792,3316,890789
+140,Lorimer St,40.714063,-73.950275,Other Brooklyn Transfer,Other Brooklyn,Brooklyn,10951,20646,3903034
+141,Broadway,40.706092,-73.950308,Crosstown,Other Brooklyn,Brooklyn,3420,4446,1112371
+142,Broadway,40.706092,-73.950308,Astoria,Queens,Queens,8653,10393,2763230
+143,Nostrand Av,40.680438,-73.950426,New Lots,Other Brooklyn,Brooklyn,2512,3090,809205
+144,Nostrand Av,40.680438,-73.950426,Fulton St,Other Brooklyn,Brooklyn,11753,14381,3768205
+145,Nostrand Av,40.669847,-73.950466,New Lots,Other Brooklyn,Brooklyn,2512,3090,809205
+146,Nostrand Av,40.669847,-73.950466,Fulton St,Other Brooklyn,Brooklyn,11753,14381,3768205
+147,President St,40.667883,-73.950683,Nostrand Av,Other Brooklyn,Brooklyn,2450,2173,742431
+148,Nassau Av,40.724635,-73.951277,Crosstown,Other Brooklyn,Brooklyn,6888,10524,2320186
+149,Roosevelt Island,40.759145,-73.95326,63 St,Upper Manhattan,Manhattan,5078,7273,1686544
+150,Hewes St,40.70687,-73.953431,Jamaica,Other Brooklyn,Brooklyn,1849,2638,612920
+151,Bedford-Nostrand Avs,40.689627,-73.953522,Crosstown,Other Brooklyn,Brooklyn,6027,8380,1985142
+152,Vernon Blvd-Jackson Av,40.742626,-73.953581,Flushing (Queens),Queens,Queens,11662,12179,3631659
+153,Sheepshead Bay,40.586896,-73.954155,Brighton,Other Brooklyn,Brooklyn,9420,7794,2821135
+154,Greenpoint Av,40.731352,-73.954449,Crosstown,Other Brooklyn,Brooklyn,7672,9284,2457616
+155,Neck Rd,40.595246,-73.955161,Brighton,Other Brooklyn,Brooklyn,3098,3069,956059
+156,Franklin Av,40.680596,-73.955827,Other Brooklyn Transfer,Other Brooklyn,Brooklyn,10092,13745,3312190
+157,Franklin Av,40.680596,-73.955827,Other Brooklyn Transfer,Other Brooklyn,Brooklyn,3667,5102,1210340
+158,Franklin Av,40.68138,-73.956848,Other Brooklyn Transfer,Other Brooklyn,Brooklyn,10092,13745,3312190
+159,Franklin Av,40.68138,-73.956848,Other Brooklyn Transfer,Other Brooklyn,Brooklyn,3667,5102,1210340
+160,Bedford Av,40.717304,-73.956872,Canarsie,Other Brooklyn,Brooklyn,23653,44011,8399477
+161,Marcy Av,40.708359,-73.957757,Jamaica,Other Brooklyn,Brooklyn,8867,11221,2864396
+162,Franklin Av,40.670682,-73.958131,Other Brooklyn Transfer,Other Brooklyn,Brooklyn,10092,13745,3312190
+163,Franklin Av,40.670682,-73.958131,Other Brooklyn Transfer,Other Brooklyn,Brooklyn,3667,5102,1210340
+164,Classon Av,40.688873,-73.96007,Crosstown,Other Brooklyn,Brooklyn,4141,5354,1342389
+165,Brighton Beach,40.577621,-73.961376,Brighton,Other Brooklyn,Brooklyn,8299,9482,2635382
+166,Parkside Av,40.655292,-73.961495,Brighton,Other Brooklyn,Brooklyn,4102,5558,1348897
+167,Prospect Park,40.661614,-73.962246,Other Brooklyn Transfer,Other Brooklyn,Brooklyn,6489,9181,2150487
+168,Newkirk Av,40.635082,-73.962793,Nostrand Av,Other Brooklyn,Brooklyn,4638,4542,1426266
+169,Church Av,40.650527,-73.962982,Nostrand Av,Other Brooklyn,Brooklyn,6201,6828,1947722
+170,Church Av,40.650527,-73.962982,Brighton,Other Brooklyn,Brooklyn,10537,9429,3194658
+171,Church Av,40.650527,-73.962982,Culver,Other Brooklyn,Brooklyn,6312,8392,2060505
+172,Cortelyou Rd,40.640927,-73.963891,Brighton,Other Brooklyn,Brooklyn,4098,4640,1296344
+173,Beverly Rd,40.644031,-73.964492,Nostrand Av,Other Brooklyn,Brooklyn,3044,3255,951520
+174,Lexington Av,40.764627,-73.96611,Manhattan CBD Transfer,Midtown,Manhattan,37615,39358,11691818
+175,Clinton-Washington Avs,40.688089,-73.966839,Fulton St,Other Brooklyn,Brooklyn,4998,5903,1587595
+176,Clinton-Washington Avs,40.688089,-73.966839,Crosstown,Other Brooklyn,Brooklyn,3968,4746,1263928
+177,Lexington Av,40.76266,-73.967258,Manhattan CBD Transfer,Midtown,Manhattan,37615,39358,11691818
+178,Grand Army Plaza,40.675235,-73.971046,Eastern Pkwy,Other Brooklyn,Brooklyn,5055,6749,1653318
+179,Lafayette Av,40.686113,-73.973946,Fulton St,Other Brooklyn,Brooklyn,3711,5720,1252720
+180,Bergen St,40.680829,-73.975098,Eastern Pkwy,Other Brooklyn,Brooklyn,3009,4194,990992
+181,Bergen St,40.680829,-73.975098,Culver,Other Brooklyn,Brooklyn,8349,10775,2701492
+182,Fulton St,40.687119,-73.975375,Manhattan CBD Transfer,Downtown,Manhattan,57533,59967,17887203
+183,Fulton St,40.687119,-73.975375,Crosstown,Other Brooklyn,Brooklyn,4656,6494,1534593
+184,Atlantic Av,40.68446,-73.97689,Canarsie,Other Brooklyn,Brooklyn,1152,1063,351212
+185,Atlantic Av-Barclays Ctr,40.684359,-73.977666,Downtown Brooklyn Transfer,Brooklyn CBD,Brooklyn,29183,40074,9583506
+186,Ditmas Av,40.636119,-73.978172,Culver,Other Brooklyn,Brooklyn,3007,1481,848061
+187,Atlantic Av-Barclays Ctr,40.683666,-73.97881,Downtown Brooklyn Transfer,Brooklyn CBD,Brooklyn,29183,40074,9583506
+188,Church Av,40.644041,-73.979678,Nostrand Av,Other Brooklyn,Brooklyn,6201,6828,1947722
+189,Church Av,40.644041,-73.979678,Brighton,Other Brooklyn,Brooklyn,10537,9429,3194658
+190,Church Av,40.644041,-73.979678,Culver,Other Brooklyn,Brooklyn,6312,8392,2060505
+191,Nevins St,40.688246,-73.980492,Eastern Pkwy,Brooklyn CBD,Brooklyn,6665,8193,2136592
+192,DeKalb Av,40.690635,-73.981824,Canarsie,Other Brooklyn,Brooklyn,8574,10894,2772609
+193,DeKalb Av,40.690635,-73.981824,Downtown Brooklyn Transfer,Brooklyn CBD,Brooklyn,13759,14315,4272247
+194,Union St,40.677316,-73.98311,4 Av,Other Brooklyn,Brooklyn,5142,6338,1646253
+195,Hoyt St,40.690545,-73.985065,Eastern Pkwy,Brooklyn CBD,Brooklyn,5087,6962,1666303
+196,York St,40.699743,-73.986885,Culver,Other Brooklyn,Brooklyn,9633,16452,3345474
+197,Delancey St,40.718611,-73.988114,Manhattan CBD Transfer,Valley,Manhattan,20608,34260,7083681
+198,East Broadway,40.713715,-73.990173,6 Av,Valley,Manhattan,11083,16775,3729749
+199,High St,40.699337,-73.990531,Fulton St,Other Brooklyn,Brooklyn,6859,8954,2247144
+200,Bergen St,40.686145,-73.990862,Eastern Pkwy,Other Brooklyn,Brooklyn,3009,4194,990992
+201,Bergen St,40.686145,-73.990862,Culver,Other Brooklyn,Brooklyn,8349,10775,2701492
+202,Astor Place,40.730054,-73.99107,Lexington Av (CBD),Valley,Manhattan,11137,16518,3717074
+203,Court St,40.6941,-73.991777,Downtown Brooklyn Transfer,Brooklyn CBD,Brooklyn,20372,16601,6066699
+204,Prospect Av,40.665414,-73.992872,White Plains Rd,Bronx,Bronx,4136,3607,1248614
+205,Prospect Av,40.665414,-73.992872,4 Av,Other Brooklyn,Brooklyn,4237,4133,1299538
+206,Clark St,40.697466,-73.993086,Eastern Pkwy,Other Brooklyn,Brooklyn,4481,7648,1554195
+207,Grand St,40.718267,-73.993753,6 Av,Valley,Manhattan,17686,24196,5821650
+208,Grand St,40.718267,-73.993753,Canarsie,Other Brooklyn,Brooklyn,4744,5408,1499646
+209,Bowery,40.72028,-73.993915,Nassau St,Valley,Manhattan,2441,4888,887619
+210,Carroll St,40.680303,-73.995048,Culver,Other Brooklyn,Brooklyn,8432,8971,2625017
+211,Broadway-Lafayette St,40.725297,-73.996204,Manhattan CBD Transfer,Valley,Manhattan,27303,43350,9268403
+212,New Utrecht Av,40.624842,-73.996353,Other Brooklyn Transfer,Other Brooklyn,Brooklyn,3765,4472,1201167
+213,Spring St,40.722301,-73.997141,Lexington Av (CBD),Valley,Manhattan,8253,16137,2969643
+214,Spring St,40.722301,-73.997141,8 Av,Valley,Manhattan,9575,9434,2941927
+215,Prince St,40.724329,-73.997702,Broadway-60 St,Valley,Manhattan,8363,18482,3128710
+216,Canal St,40.718092,-73.999892,Broadway/7 Av (CBD),Valley,Manhattan,3595,4352,1148885
+217,Canal St,40.718092,-73.999892,8 Av,Valley,Manhattan,12596,13840,3950546
+218,Canal St,40.718092,-73.999892,Manhattan CBD Transfer,Valley,Manhattan,30763,49543,10521747
+219,Canal St,40.718803,-74.000193,Broadway/7 Av (CBD),Valley,Manhattan,3595,4352,1148885
+220,Canal St,40.718803,-74.000193,8 Av,Valley,Manhattan,12596,13840,3950546
+221,Canal St,40.718803,-74.000193,Manhattan CBD Transfer,Valley,Manhattan,30763,49543,10521747
+222,Chambers St,40.71419,-74.003199,Broadway/7 Av (CBD),Downtown,Manhattan,12798,9934,3782605
+223,Chambers St,40.71419,-74.003199,Manhattan CBD Transfer,Downtown,Manhattan,40703,35944,12298422
+224,Chambers St,40.713243,-74.003401,Broadway/7 Av (CBD),Downtown,Manhattan,12798,9934,3782605
+225,Chambers St,40.713243,-74.003401,Manhattan CBD Transfer,Downtown,Manhattan,40703,35944,12298422
+226,Brooklyn Bridge-City Hall,40.713889,-74.003654,Manhattan CBD Transfer,Downtown,Manhattan,19361,17568,5881022
+227,Spring St,40.726227,-74.003739,Lexington Av (CBD),Valley,Manhattan,8253,16137,2969643
+228,Spring St,40.726227,-74.003739,8 Av,Valley,Manhattan,9575,9434,2941927
+229,Brooklyn Bridge-City Hall,40.713813,-74.003907,Manhattan CBD Transfer,Downtown,Manhattan,19361,17568,5881022
+230,Brooklyn Bridge-City Hall,40.713065,-74.004131,Manhattan CBD Transfer,Downtown,Manhattan,19361,17568,5881022
+231,Brooklyn Bridge-City Hall,40.712333,-74.004387,Manhattan CBD Transfer,Downtown,Manhattan,19361,17568,5881022
+232,Brooklyn Bridge-City Hall,40.712868,-74.004806,Manhattan CBD Transfer,Downtown,Manhattan,19361,17568,5881022
+233,Brooklyn Bridge-City Hall,40.712723,-74.004971,Manhattan CBD Transfer,Downtown,Manhattan,19361,17568,5881022
+234,Brooklyn Bridge-City Hall,40.711824,-74.005057,Manhattan CBD Transfer,Downtown,Manhattan,19361,17568,5881022
+235,Brooklyn Bridge-City Hall,40.711857,-74.005114,Manhattan CBD Transfer,Downtown,Manhattan,19361,17568,5881022
+236,Canal St,40.720824,-74.005229,Broadway/7 Av (CBD),Valley,Manhattan,3595,4352,1148885
+237,Canal St,40.720824,-74.005229,8 Av,Valley,Manhattan,12596,13840,3950546
+238,Canal St,40.720824,-74.005229,Manhattan CBD Transfer,Valley,Manhattan,30763,49543,10521747
+239,Houston St,40.728251,-74.005367,Broadway/7 Av (CBD),Valley,Manhattan,8908,9033,2749660
+240,Canal St,40.722854,-74.006277,Broadway/7 Av (CBD),Valley,Manhattan,3595,4352,1148885
+241,Canal St,40.722854,-74.006277,8 Av,Valley,Manhattan,12596,13840,3950546
+242,Canal St,40.722854,-74.006277,Manhattan CBD Transfer,Valley,Manhattan,30763,49543,10521747
+243,Fulton St,40.709416,-74.006571,Manhattan CBD Transfer,Downtown,Manhattan,57533,59967,17887203
+244,Fulton St,40.709416,-74.006571,Crosstown,Other Brooklyn,Brooklyn,4656,6494,1534593
+245,Franklin St,40.719318,-74.006886,Broadway/7 Av (CBD),Valley,Manhattan,4337,4222,1329726
+246,City Hall,40.713282,-74.006978,Broadway-60 St,Downtown,Manhattan,3842,2987,1138401
+247,Fulton St,40.710374,-74.007582,Manhattan CBD Transfer,Downtown,Manhattan,57533,59967,17887203
+248,Fulton St,40.710374,-74.007582,Crosstown,Other Brooklyn,Brooklyn,4656,6494,1534593
+249,Chambers St,40.714111,-74.008585,Broadway/7 Av (CBD),Downtown,Manhattan,12798,9934,3782605
+250,Chambers St,40.714111,-74.008585,Manhattan CBD Transfer,Downtown,Manhattan,40703,35944,12298422
+251,Wall St,40.706821,-74.0091,Broadway/7 Av (CBD),Downtown,Manhattan,12395,10788,3729954
+252,Wall St,40.706821,-74.0091,Lexington Av (CBD),Downtown,Manhattan,11163,10252,3393094
+253,Chambers St,40.715478,-74.009266,Broadway/7 Av (CBD),Downtown,Manhattan,12798,9934,3782605
+254,Chambers St,40.715478,-74.009266,Manhattan CBD Transfer,Downtown,Manhattan,40703,35944,12298422
+255,Fulton St,40.710368,-74.009509,Manhattan CBD Transfer,Downtown,Manhattan,57533,59967,17887203
+256,Fulton St,40.710368,-74.009509,Crosstown,Other Brooklyn,Brooklyn,4656,6494,1534593
+257,Broad St,40.706476,-74.011056,Nassau St,Downtown,Manhattan,3982,3705,1214353
+258,Wall St,40.707557,-74.011862,Broadway/7 Av (CBD),Downtown,Manhattan,12395,10788,3729954
+259,Wall St,40.707557,-74.011862,Lexington Av (CBD),Downtown,Manhattan,11163,10252,3393094
+260,Rector St,40.70722,-74.013342,Broadway/7 Av (CBD),Downtown,Manhattan,4898,6620,1606245
+261,Rector St,40.70722,-74.013342,Broadway-60 St,Downtown,Manhattan,3719,3354,1127341
+262,South Ferry,40.702068,-74.013664,Manhattan CBD Transfer,Downtown,Manhattan,18765,22231,5995305
+263,Rector St,40.707513,-74.013783,Broadway/7 Av (CBD),Downtown,Manhattan,4898,6620,1606245
+264,Rector St,40.707513,-74.013783,Broadway-60 St,Downtown,Manhattan,3719,3354,1127341
+265,Bowling Green,40.704817,-74.014065,Lexington Av (CBD),Downtown,Manhattan,14906,14337,4575586
+266,Bay Ridge Av,40.634967,-74.023377,4 Av,Other Brooklyn,Brooklyn,5690,6220,1784703
