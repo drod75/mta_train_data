@@ -12,7 +12,7 @@ df = request_train_data()
 df = df.drop('index', axis=1)
 option = st.selectbox(
     'What route would you like to select?',
-    ('N','Q','R'),
+    ('A','C','E','B','D','F','M','G','J','Z','N','Q','R','W','1','2','3','4','5','6','7'),
     index=None,
     placeholder='Waiting...'
 )
