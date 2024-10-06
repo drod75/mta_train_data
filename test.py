@@ -10,13 +10,7 @@ def column_setting(x):
 
 def request_train_data() -> pd.DataFrame:
     # Define the API endpoint
-    urls = ['https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/nyct%2Fgtfs-ace', 
-            'https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/nyct%2Fgtfs-bdfm',
-            'https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/nyct%2Fgtfs-g', 
-            'https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/nyct%2Fgtfs-jz',
-            'https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/nyct%2Fgtfs-nqrw',
-            'https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/nyct%2Fgtfs-l',
-            'https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/nyct%2Fgtfs']
+    urls = ['https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/nyct%2Fgtfs-ace']
     df = pd.DataFrame(
             columns=['trip_id', 'trip_start_time', 'trip_start_date', 'trip_route_id'])
     for url in urls:
@@ -50,3 +44,5 @@ def request_train_data() -> pd.DataFrame:
     df = df[(df['trip_route_id'] != 'FS') & (df['trip_route_id'] != 'GS')]
 
     return df
+
+df = request_train_data()
