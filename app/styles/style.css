@@ -1,0 +1,18 @@
+h2 {
+    border-color: black;
+    border: 10px;
+}
+
+div[role="listbox"] ul {
+    background-color: black;
+    color: whitesmoke
+}
+div[data-baseweb="select"] > div {
+    background-color: whitesmoke;
+}
+.st-emotion-cache-j7qwjs eczjsme15 {
+    color: whitesmoke;
+    background-color: black;
+    border-width: 2px;
+    border-style: dashed;
+}

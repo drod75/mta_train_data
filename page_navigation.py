@@ -1,6 +1,6 @@
 import streamlit as st
 
-with open( "app/styles/fonts.css" ) as css:
+with open( "app/styles/style.css" ) as css:
     st.markdown( f'<style>{css.read()}</style>' , unsafe_allow_html=True)
 pages = [
     st.Page('streamlit_app/home.py',title='MTA Base', icon=':material/domain:', default=True),
