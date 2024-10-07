@@ -1,9 +1,11 @@
 import streamlit as st
+from ast import literal_eval
 import folium
 from streamlit_folium import st_folium
 import extra_streamlit_components as stx
 import pandas as pd
 from mta_data_analysis import read_data
+from folium_map import send_data
 
 
 with open("app/styles/style.css") as css:
@@ -25,11 +27,12 @@ chosen_id = stx.tab_bar(data=[
 match chosen_id:
     # Tab one map w Markers(pending)
     case '1':
-        m = folium.Map(location=[40.693943, -73.8], default_zoom_start=55)
+        m = send_data()
         st_folium(m, width=1000)
     # Tab two data viewing
     case '2':
         df = pd.read_csv('streamlit_app\data\mta_cleaned_data.csv')
+        df['STATION_LINES']=df['STATION_LINES'].apply(literal_eval)
         option = st.selectbox('What Borough would you like to see?', ('Brooklyn', 'Manhattan',
                               'Queens', 'Bronx', 'ALL'), index=None, placeholder='Please Select a choice...')
         # Option 1, borough
