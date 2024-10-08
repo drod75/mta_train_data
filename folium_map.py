@@ -1,4 +1,5 @@
 import folium
+import geopandas as gpd
 import pandas as pd
 from mta_data_analysis import read_data
 from ast import literal_eval
@@ -31,6 +32,17 @@ color_palette = {
     '7': 'purple'
 }
 
+def seperate_locations(x):
+    x = (str(x)).replace(')', "")
+    locations = (str(x)).split('(')
+    lst = locations[-1].split(',')
+    return ' '.join(lst)
+
+def getcolor(feature):
+    if '-' in feature['properties']['name']:
+        lst = (feature['properties']['name']).split('-')
+        return lst[0]
+    return color_palette[str(feature['properties']['name'])]
 
 def create_map() -> folium.Map:
     read_data()
@@ -53,21 +65,19 @@ def set_markers(map: folium.Map) -> folium.Map:
 
 
 def set_lines(map: folium.Map) -> folium.Map:
-    locations = pd.read_csv('streamlit_app\data\mta_cleaned_data.csv')
-    lines = [
-        'A','C', 'E', 'B', 'D', 'F', 'M', 'G',
-        'J', 'Z', 'L', 'S', 'N', 'Q', 'R',
-        '1', '2', '3', '6', '5', '4', '7'
-             ]
-    for l in lines:
-        localls = []
-        for index, row in locations.iterrows():
-            if l in row['STATION_LINES']:
-                localls.append([row['LATITUDE'], row['LONGITUDE']])
-            else:
-                pass
-        cl = color_palette[l]
-        folium.PolyLine(locations=localls, popup=l, color=cl, weight=2).add_to(map)
+    gdf = gpd.read_file('streamlit_app\data\Subway Lines.geojson')
+    folium.GeoJson(
+        gdf,
+        name="MTA Subway Lines",
+        style_function=lambda feature: {
+            'color': getcolor(feature),  # Customize the line color
+            'weight': 3,
+            'opacity': 0.6,
+        }
+    ).add_to(map)
+
+    # Add layer control for switching between layers
+    folium.LayerControl().add_to(map)
     return map
     
 
