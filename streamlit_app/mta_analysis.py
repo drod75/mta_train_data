@@ -32,7 +32,6 @@ match chosen_id:
     # Tab two data viewing
     case '2':
         df = pd.read_csv('streamlit_app\data\mta_cleaned_data.csv')
-        df['STATION_LINES']=df['STATION_LINES'].apply(literal_eval)
         option = st.selectbox('What Borough would you like to see?', ('Brooklyn', 'Manhattan',
                               'Queens', 'Bronx', 'ALL'), index=None, placeholder='Please Select a choice...')
         # Option 1, borough

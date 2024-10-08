@@ -1,6 +1,8 @@
 import requests
 import pandas as pd
 import json
+from bs4 import BeautifulSoup
+import pprint
 from google.transit import gtfs_realtime_pb2
 
 def column_setting(x):

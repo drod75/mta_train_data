@@ -3,7 +3,7 @@ def seperate_locations(x):
     x = (str(x)).replace(')', "")
     locations = (str(x)).split('(')
     lst = locations[-1].split(',')
-    return list(lst)
+    return ' '.join(lst)
 
 def read_data():
     # reading data
@@ -13,7 +13,13 @@ def read_data():
     df = df[['station_complex_id','station_complex','borough','latitude','longitude','sum_ridership']]
     df = df.rename(columns={'station_complex_id':'station_id', 'station_complex':'station'})
     df.columns = df.columns.str.upper()
+    df = df[df['STATION'] != 'RI Tramway (Roosevelt)']
+    df = df[df['STATION'] != 'RI Tramway (Manhattan)']
+    df = df[df['BOROUGH'] != 'Staten Island']
+
     df['STATION_LINES'] = df['STATION'].apply(seperate_locations)
     
+    df.sort_values(['LATITUDE','LONGITUDE'], ascending=[True, True])
+
     #done with data :)
     df.to_csv('streamlit_app\data\mta_cleaned_data.csv',index=False)
