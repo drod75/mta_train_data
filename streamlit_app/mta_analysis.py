@@ -21,11 +21,10 @@ chosen_id = stx.tab_bar(data=[
     stx.TabBarItemData(id=2, title="Ridership Overview",
                        description="An overview of MTA Ridership"),
     stx.TabBarItemData(id=3, title='Ridership Analysis',
-                       description='An analysis of MTA Ridership'),
-    stx.TabBarItemData(id=4, title="Train Line Creation",
-                       description="An analysis of possible train lines"),
+                       description='An analysis of MTA Ridership')
 ], default=1)
 
+df = pd.read_csv('streamlit_app\data\mta_cleaned_data.csv')
 # Set tab content, for some reason id is set to number but represented a string, took me a while to notice
 match chosen_id:
     # Tab one map w Markers(pending)
@@ -34,7 +33,6 @@ match chosen_id:
         st_folium(m, width=1000)
     # Tab two data viewing
     case '2':
-        df = pd.read_csv('streamlit_app\data\mta_cleaned_data.csv')
         option = st.selectbox('What Borough would you like to see?', ('Brooklyn', 'Manhattan',
                               'Queens', 'Bronx', 'ALL'), index=None, placeholder='Please Select a choice...')
         # Option 1, borough
@@ -64,7 +62,7 @@ match chosen_id:
                 st.table(slc)
     # Tab Three plots
     case '3':
-        st.write('WIP')
-    # Tab three possible train lines
-    case '4':
-        st.write('WIP')
+        figs = plots_for_st(df)
+        for fig in figs:
+            st.plotly_chart(fig)
+    # Tab Four possible train lines
