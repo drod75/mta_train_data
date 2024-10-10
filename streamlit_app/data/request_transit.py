@@ -4,6 +4,7 @@ import json
 from bs4 import BeautifulSoup
 import pprint
 from google.transit import gtfs_realtime_pb2
+import geopandas as gpd
 
 def column_setting(x):
     x = str(x)

@@ -21,6 +21,7 @@ color_palette = {
     'L': 'gray',
     'S': 'gray',
     'N': 'lightred',
+    'W': 'lightred',
     'Q': 'lightred',
     'R': 'lightred',
     '1': 'red',
@@ -33,15 +34,14 @@ color_palette = {
 }
 
 def seperate_locations(x):
-    x = (str(x)).replace(')', "")
-    locations = (str(x)).split('(')
-    lst = locations[-1].split(',')
-    return ' '.join(lst)
+    x = (str(x)).replace('-', " ")
+    locations = (str(x)).split(' ')
+    return ' '.join(locations)
 
 def getcolor(feature):
     if '-' in feature['properties']['name']:
         lst = (feature['properties']['name']).split('-')
-        return lst[0]
+        return color_palette[lst[0]]
     return color_palette[str(feature['properties']['name'])]
 
 def create_map() -> folium.Map:

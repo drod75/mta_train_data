@@ -6,6 +6,7 @@ import extra_streamlit_components as stx
 import pandas as pd
 from mta_data_analysis import read_data
 from folium_map import send_data
+from plots_st import plots_for_st
 
 
 with open("app/styles/style.css") as css:
@@ -17,9 +18,11 @@ read_data()
 chosen_id = stx.tab_bar(data=[
     stx.TabBarItemData(id=1, title="Map",
                        description="A map of MTA Subway Stations"),
-    stx.TabBarItemData(id=2, title="Analysis",
-                       description="An analysis of MTA Ridership"),
-    stx.TabBarItemData(id=3, title="Train Line Creation",
+    stx.TabBarItemData(id=2, title="Ridership Overview",
+                       description="An overview of MTA Ridership"),
+    stx.TabBarItemData(id=3, title='Ridership Analysis',
+                       description='An analysis of MTA Ridership'),
+    stx.TabBarItemData(id=4, title="Train Line Creation",
                        description="An analysis of possible train lines"),
 ], default=1)
 
@@ -41,11 +44,12 @@ match chosen_id:
                     'Top', 'Bottom'), index=None, placeholder='Please Select a choice...')
                 option3 = st.slider('Pick a number', 0, 389)
                 # Option 2, top or bottom of all, and how many
-                match option2:
-                    case 'Top':
-                        st.table(df.head(option3))
-                    case 'Bottom':
-                        st.table(df.tail(option3))
+                while option2 != None:
+                    match option2:
+                        case 'Top':
+                            st.table(df.head(option3))
+                        case 'Bottom':
+                            st.table(df.tail(option3))
             case 'Brooklyn':
                 slc = df[df['BOROUGH'] == 'Brooklyn']
                 st.table(slc)
@@ -58,6 +62,9 @@ match chosen_id:
             case 'Bronx':
                 slc = df[df['BOROUGH'] == 'Bronx']
                 st.table(slc)
-    # Tab three possible train lines
+    # Tab Three plots
     case '3':
-        st.write('No')
+        st.write('WIP')
+    # Tab three possible train lines
+    case '4':
+        st.write('WIP')
