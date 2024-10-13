@@ -1,0 +1,9 @@
+**Creator**: David Rodriguez 
+
+**Portfolio**: https://drod75.github.io/
+
+**Langauges Used**: Python, CSS
+
+**Python Libraries Used**: Streamlit, Extra Streamlit Components, Streamlit Folium, Pandas, Folium, Geopandas, Numpy, Plotly 
+
+**Data**: MTA Ridership Data from the NYC Open Data Portal
