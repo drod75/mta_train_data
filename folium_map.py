@@ -41,7 +41,7 @@ def getcolor(feature):
     return color_palette[str(feature['properties']['name'])]
 
 def create_map() -> folium.Map:
-    return folium.Map(location=[40.693943, -73.8], default_zoom_start=100)
+    return folium.Map(location=[40.693943, -73.8], tiles="Cartodb Positron", default_zoom_start=100)
 
 
 def set_markers(map: folium.Map) -> folium.Map:
@@ -55,7 +55,7 @@ def set_markers(map: folium.Map) -> folium.Map:
             location=[row['LATITUDE'], row['LONGITUDE']],
             radius=calculation,
             color=cl,
-            popup=row['STATION']).add_to(map)
+            popup=folium.Popup(row['STATION'], max_width='300%', lazy=True)).add_to(map)
     return map
 
 

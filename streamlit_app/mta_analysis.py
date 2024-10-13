@@ -1,5 +1,4 @@
 import streamlit as st
-from ast import literal_eval
 import streamlit_folium as st_folium
 import extra_streamlit_components as stx
 import pandas as pd
@@ -9,7 +8,6 @@ from plots_st import plots_for_st
 
 with open("app/styles/style.css") as css:
     st.markdown(f'<style>{css.read()}</style>', unsafe_allow_html=True)
-    st.sidebar.markdown(f'<style>{css.read()}</style>' , unsafe_allow_html=True)
 
 st.header('MTA Riderships')
 # Set Tabs

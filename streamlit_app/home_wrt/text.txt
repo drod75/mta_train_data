@@ -1,5 +1,4 @@
 ### **Welcome to the MTA Ridership Analysis App!**
-===========================================
 
 This app is designed to provide a comprehensive analysis of MTA ridership data!
 It includes features for visualizing ridership trends, identifying key stations and lines, and making data-driven recommendations for improving the MTA system!
