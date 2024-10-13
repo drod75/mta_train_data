@@ -10,6 +10,8 @@ with open("app/styles/style.css") as css:
     st.markdown(f'<style>{css.read()}</style>', unsafe_allow_html=True)
 
 st.header('MTA Riderships')
+st.markdown('### This is the MTA Ridership page!')
+
 # Set Tabs
 chosen_id = stx.tab_bar(data=[
     stx.TabBarItemData(id=1, title="Map",
@@ -20,7 +22,7 @@ chosen_id = stx.tab_bar(data=[
                        description='An analysis of MTA Ridership')
 ], default=1)
 
-df = pd.read_csv('streamlit_app\data\mta_cleaned_data.csv')
+df = pd.read_csv('app/streamlit_app/data/mta_cleaned_data.csv')
 # Set tab content, for some reason id is set to number but represented a string, took me a while to notice
 match chosen_id:
     # Tab one map w Markers

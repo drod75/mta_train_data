@@ -7,10 +7,10 @@ with open( "app/styles/style.css" ) as css:
 
 
 pages = [
-    st.Page('streamlit_app/home.py',title='MTA Base', icon=':material/domain:', default=True),
-    st.Page('streamlit_app/mta_analysis.py',title='MTA Ridership', icon=':material/groups:'),
-    st.Page('streamlit_app/mta_suggestions.py',title='MTA Line Suggestion', icon=':material/subway:'),
-    st.Page('streamlit_app/mta_ai.py',title='MT-AI', icon=':material/robot_2:')
+    st.Page('app/streamlit_app/home.py',title='MTA Base', icon=':material/domain:', default=True),
+    st.Page('app/streamlit_app/mta_analysis.py',title='MTA Ridership', icon=':material/groups:'),
+    st.Page('app/streamlit_app/mta_suggestions.py',title='MTA Line Suggestion', icon=':material/subway:'),
+    st.Page('app/streamlit_app/mta_ai.py',title='MT-AI', icon=':material/robot_2:')
 ]
 pg = st.navigation(pages)
 read_data()

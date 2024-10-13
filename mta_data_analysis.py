@@ -22,4 +22,4 @@ def read_data():
     df.sort_values(['LATITUDE','LONGITUDE'], ascending=[True, True])
 
     #done with data :)
-    df.to_csv('streamlit_app\data\mta_cleaned_data.csv',index=False)
+    df.to_csv('app\streamlit_app\data\mta_cleaned_data.csv',index=False)

@@ -45,7 +45,7 @@ def create_map() -> folium.Map:
 
 
 def set_markers(map: folium.Map) -> folium.Map:
-    locations = pd.read_csv('streamlit_app\data\mta_cleaned_data.csv')
+    locations = pd.read_csv('app\streamlit_app\data\mta_cleaned_data.csv')
     for index, row in locations.iterrows():
         lst = row['STATION_LINES'].split(' ')
         cl = color_palette[lst[0]]
@@ -60,7 +60,7 @@ def set_markers(map: folium.Map) -> folium.Map:
 
 
 def set_lines(map: folium.Map) -> folium.Map:
-    gdf = gpd.read_file('streamlit_app\data\Subway Lines.geojson')
+    gdf = gpd.read_file('app\streamlit_app\data\Subway Lines.geojson')
     folium.GeoJson(
         gdf,
         name="MTA Subway Lines",
