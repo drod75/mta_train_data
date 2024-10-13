@@ -16,3 +16,33 @@ div[data-baseweb="select"] > div {
     border-width: 2px;
     border-style: dashed;
 }
+
+/* Streamlit Sidebar Styling */
+.stSidebarContent {  /* Sidebar container */
+    background-color: black !important;
+    border: 2px dashed white !important;
+    border-radius: 0 !important;  /* Sharp edges */
+}
+
+.stSidebarContent .stSelectbox label,
+.stSidebarContent .stSlider label,
+.stSidebarContent .stCheckbox label,
+.stSidebarContent .stRadio label,
+.stSidebarContent .stTextInput label,
+.stSidebarContent .stTextArea label,
+.stSidebarContent .stNumberInput label,
+.stSidebarContent .stDateInput label,
+.stSidebarContent .stTimeInput label,
+.stSidebarContent p,
+.stSidebarContent span {
+    color: white !important;
+}
+
+/* Ensure text inputs and other elements have appropriate contrast */
+.stSidebarContent input[type="text"],
+.stSidebarContent input[type="number"],
+.stSidebarContent .stSelectbox select {
+    background-color: #333;
+    color: white;
+    border: 1px solid #555;
+}

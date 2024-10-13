@@ -10,7 +10,10 @@ def plots_for_st(df: pd.DataFrame):
     figure_list = []
     match option:
         case 'ALL':
-            pass
+            ridership = df['SUM_RIDERSHIP']
+            m = folium.Map(location=[40.779393,-73.966847], zoom_start=10)
+            HeatMap(list(zip(df['LATITUDE'], df['LONGITUDE'], ridership)), radius=10).add_to(m)
+            st_folium.folium_static(m)
         case 'Manhattan':
             df_manhattan = df[df['BOROUGH'] == 'Manhattan']
             ridership = df_manhattan['SUM_RIDERSHIP']

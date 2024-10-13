@@ -1,10 +1,6 @@
 import folium
 import geopandas as gpd
 import pandas as pd
-from mta_data_analysis import read_data
-from ast import literal_eval
-
-# loading dataframe for two methods, to prevent it loading multiple times for no reason
 
 # loading the color palette
 color_palette = {
@@ -45,7 +41,6 @@ def getcolor(feature):
     return color_palette[str(feature['properties']['name'])]
 
 def create_map() -> folium.Map:
-    read_data()
     return folium.Map(location=[40.693943, -73.8], default_zoom_start=100)
 
 
@@ -83,6 +78,6 @@ def set_lines(map: folium.Map) -> folium.Map:
 
 def send_data() -> folium.Map:
     map = create_map()
-    map = set_markers(map)
-    map = set_lines(map)
+    set_markers(map)
+    set_lines(map)
     return map

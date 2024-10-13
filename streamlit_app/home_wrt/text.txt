@@ -1,0 +1,18 @@
+### **Welcome to the MTA Ridership Analysis App!**
+===========================================
+
+This app is designed to provide a comprehensive analysis of MTA ridership data!
+It includes features for visualizing ridership trends, identifying key stations and lines, and making data-driven recommendations for improving the MTA system!
+
+Along with this the pages we have here are:
+- **Ridership**
+- **Line Suggestion**
+- **MT-AI**
+
+In the **Ridership** page you can view a map of the subway stations and their ridership, an overview of the ridership, and an analysis of the ridership!
+
+In the **Line Suggestion** page you can view the most popular routes and see what theoretical line could be built to connect them!
+
+In the **MT-AI** page you can input a prompt and the app will generate a response using a LLM!
+
+We hope you find this app helpful!
