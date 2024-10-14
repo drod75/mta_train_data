@@ -8,6 +8,7 @@ with open( "app/styles/style.css" ) as css:
 
 pages = [
     st.Page('app/src/home.py',title='MTA Base', icon=':material/domain:', default=True),
+    st.Page('app/src/log.py',title='MTA Log', icon=':material/map:'),
     st.Page('app/src/mta_analysis.py',title='MTA Ridership', icon=':material/groups:'),
     st.Page('app/src/mta_suggestions.py',title='MTA Line Suggestion', icon=':material/subway:'),
     st.Page('app/src/mta_ai.py',title='MT-AI', icon=':material/robot_2:'),
