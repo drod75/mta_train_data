@@ -29,5 +29,5 @@ with st.form("my_form"):
         "Enter text:",
         "What is the MTA?",
     )
-    submitted = st.form_submit_button("Submit")
-    generate_response(text)
+    if st.form_submit_button("Submit"):
+        generate_response(text)
