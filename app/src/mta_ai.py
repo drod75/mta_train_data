@@ -1,6 +1,7 @@
 import streamlit as st
 import os
 from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_core.prompts import ChatPromptTemplate
 from dotenv import load_dotenv, find_dotenv
 from pathlib import Path
 
@@ -15,8 +16,17 @@ model = ChatGoogleGenerativeAI(
         api_key=os.environ.get('GEMINI_API_KEY')
 )
 
+prompt_template = ChatPromptTemplate.from_messages([
+    ("system", '''You are a helpful assistant that talks about the Metropolitan Transit System, 
+                    an NYC based transit system, you give context about the system and even talk 
+                    about how it works and its functions'''),
+    ("human", "{input}"),
+])
+
+chain = prompt_template | model
+
 def generate_response(input_text):
-    response = model.invoke(input_text)
+    response = chain.invoke(input_text)
     return response.content
 
 with open( "app/styles/style.css" ) as css:
