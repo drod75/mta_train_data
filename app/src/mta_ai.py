@@ -15,6 +15,9 @@ model = ChatGoogleGenerativeAI(
         api_key=os.environ.get('GEMINI_API_KEY')
 )
 
+def generate_response(input_text):
+    response = model.invoke(input_text)
+    return response.content
 
 with open( "app/styles/style.css" ) as css:
     st.markdown( f'<style>{css.read()}</style>' , unsafe_allow_html=True)
@@ -22,15 +25,26 @@ with open( "app/styles/style.css" ) as css:
 st.header('MT-AI')
 st.markdown('### This is the MT-AI page!')
 
-def generate_response(input_text):
-    response = model.invoke(input_text)
-    st.info(response)
+with st.container():
+    # Initialize chat 
+    if "messages" not in st.session_state:
+        st.session_state.messages = []
 
+    # Display chat messages from history on app rerun
+    for message in st.session_state.messages:
+        with st.chat_message(message["role"]):
+            st.markdown(message["content"])
 
-with st.form("my_form"):
-    text = st.text_area(
-        "Enter text:",
-        "What is the MTA?",
-    )
-    if st.form_submit_button("Submit"):
-        generate_response(text)
+    # React to user input
+    if prompt := st.chat_input("What is up?"):
+        # Display user message in chat message container
+        st.chat_message("user").markdown(prompt)
+        # Add user message to chat history
+        st.session_state.messages.append({"role": "user", "content": prompt})
+
+        response = generate_response(prompt)
+        # Display assistant response in chat message container
+        with st.chat_message("assistant"):
+            st.markdown(response)
+        # Add assistant response to chat history
+        st.session_state.messages.append({"role": "assistant", "content": response})
