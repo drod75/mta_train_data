@@ -31,19 +31,19 @@ def plots_for_st(df: pd.DataFrame):
             m = folium.Map(location=[40.845881,-73.876357], zoom_start=12, tiles="Cartodb Positron")
             HeatMap(list(zip(df_bronx['LATITUDE'], df_bronx['LONGITUDE'], ridership)), radius=10).add_to(m)
             st_folium.folium_static(m)
-            st.pyplot(sns.pairplot(df_bronx))        
+            st.pyplot(sns.pairplot(df_bronx, hue='STATION_LINES'))        
         case 'Brooklyn':
             df_brooklyn = df[df['BOROUGH'] == 'Brooklyn']
             ridership = df_brooklyn['SUM_RIDERSHIP']
             m = folium.Map(location=[40.646641,-73.955603], zoom_start=12, tiles="Cartodb Positron")
             HeatMap(list(zip(df_brooklyn['LATITUDE'], df_brooklyn['LONGITUDE'], ridership)), radius=10).add_to(m)
             st_folium.folium_static(m)  
-            st.pyplot(sns.pairplot(df_brooklyn))
+            st.pyplot(sns.pairplot(df_brooklyn, hue='STATION_LINES'))
         case 'Queens':
             df_queens = df[df['BOROUGH'] == 'Queens']
             ridership = df_queens['SUM_RIDERSHIP']
             m = folium.Map(location=[40.711386,-73.827573], zoom_start=12, tiles="Cartodb Positron")
             HeatMap(list(zip(df_queens['LATITUDE'], df_queens['LONGITUDE'], ridership)), radius=10).add_to(m)
             st_folium.folium_static(m)
-            st.pyplot(sns.pairplot(df_queens))
+            st.pyplot(sns.pairplot(df_queens, hue='STATION_LINES'))
     return figure_list
